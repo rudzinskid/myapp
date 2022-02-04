@@ -12,7 +12,7 @@ app.get('/:a&:b&:c', (req, res) => {
   //res.send('The area of a square with a width of 4 is ' + square.area(bok))
  // res.send('The area of a square with a width of 4 is ' + square.dwumian(aa,bb,cc))
   res.json({"x1":square.dwumian(aa,bb,cc)[0],"x2":square.dwumian(aa,bb,cc)[1]})
-  console.log('The area aaa of a square with a width of 4 is ' + square.dwumian(aa,bb,cc))
+  console.log('The area aabba of a square with a width of 4 is ' + square.dwumian(aa,bb,cc))
 })
 
 app.listen(port, () => {
